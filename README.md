@@ -48,28 +48,34 @@ Assigning process to a CPU based on particular scheduling algorithm
 	<li>at_temp_sort: This will sort the processes according to it's arrival time in waiting queue. </li>
 	<li> createQueue: To create a queue and allocate memory accordingly.c</li>
   </ol>
+  
   ### Built With
+  
   #### C
+  
   ### Getting Started
   
-  Run the file 
   
   <p>Then  loop timer will start from the  time when the first process arrive.
 		 As The processes arrives in the w_q and if r_q is not full it is enqueued from w_q to r_q.
-		 	if user has selected 1 (FCFS):
+<ul>
+		 	<li>If user has selected 1 (FCFS):
 			 	The function will execute the process according to the sequence it has entered which is according to it's arrival time.
 			 	When the process arrives it is updated at status.txt and when it starts running it is also updated similarly.
-		 		If the process at front is completed it is dequeued from the queue and process_fcfs.txt  and status_fcfs.txt is updated with all the calculated values of that process.<lb>
-	if user has selected 2 (SRTF):
+		 		If the process at front is completed it is dequeued from the queue and process_fcfs.txt  and status_fcfs.txt is updated with all the calculated values of that process.</li>
+	<li>
+	If user has selected 2 (SRTF):
 		 		Process will be enqueued in ready queue according to it's burst time from the waiting queue.
 		 		Then we will run the process with the least burst time until it finishes it's execution or any process with lesser burst time enter's ready queue.
 		 		if process complete the execution we will dequeue it from the queue and enqueue next process from waiting queue and 
-				 	update values of status_rr.txt and process.txt accordingly.
-	if user has selected 3 (RR):
+		update values of status_rr.txt and process.txt accordingly.</li>
+	<li>If user has selected 3 (RR):
 			 	This function will execute the process according to the sequence it enters the ready queue.
 			 	if the process remaining bt is less than quanta so it will run completely otherwise if quanta finishes before the bt 
 					 the process is stopped and next process is executed and the last process is swapped in ready queue back. 
 		 		then if process finishes it's bt then it is dequeued from the queue and next process starts it's execution and 
-				 	the values of status_rr.txt and process_rr.txt are updated accordingly.</p>
+		the values of status_rr.txt and process_rr.txt are updated accordingly.</li>
+	</ul>
+	</p>
     
  
