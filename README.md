@@ -17,7 +17,7 @@ Assigning process to a CPU based on particular scheduling algorithm
         <li><a href="#built-with">Built With</a></li>
  
   <li>
-    <a href=#getting started>Getting Started</a>
+    <a href=#getting-started>Getting Started</a>
   </li>
    </ol>
 </details>
