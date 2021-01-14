@@ -51,7 +51,7 @@ Assigning process to a CPU based on particular scheduling algorithm
   
   ### Built With
   
-  #### C
+  #### C-Programming language
   
   ### Getting Started
   
